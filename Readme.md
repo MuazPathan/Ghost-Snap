@@ -1,4 +1,4 @@
-# 🧤 Avengers Snap Disintegrator (WebRTC Cam FX)
+# 🧤 Ghost Snap
 
 A Manifest V3 Chrome Extension that intercepts your live webcam feed across any browser-based video calling platform and disintegrates you into drifting ash—just like the *Avengers: Infinity War / Endgame* snap—whenever you snap your fingers. Because the effect modifies the outgoing WebRTC media stream directly, **everyone else on the call sees you turn into dust in real time.**
 
