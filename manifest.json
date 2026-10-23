@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Avengers Snap Disintegrator (WebRTC Cam FX)",
+  "version": "1.0.0",
+  "description": "Snap your fingers on any video call (Meet, Zoom, Teams, WhatsApp) to disintegrate into dust like Avengers: Infinity War.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*",
+        "https://*.zoom.us/*",
+        "https://teams.microsoft.com/*",
+        "https://teams.live.com/*",
+        "https://web.whatsapp.com/*",
+        "https://discord.com/*"
+      ],
+      "js": [
+        "dissolveEngine.js",
+        "snapDetector.js",
+        "inject.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    }
+  ]
+}
